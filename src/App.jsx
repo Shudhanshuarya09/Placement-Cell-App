@@ -17,12 +17,12 @@ function App() {
   return ( 
     <div className="grid-container">
       <LoginSignup/>
-      <Header OpenSidebar={OpenSidebar} />
+      {/* <Header OpenSidebar={OpenSidebar} />
       <Sidebar
         openSidebarToggle={openSidebarToggle}
         OpenSidebar={OpenSidebar}
       />
-      <Home />
+      <Home /> */}
     </div>
   );
 }

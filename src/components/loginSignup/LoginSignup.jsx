@@ -1,9 +1,9 @@
 import React from "react";
 import "./LoginSignup.css";
 
-import user_icon from "../assets/";
+import user_icon from "../assets/person.png";
 import email_icon from "../assets/email.png";
-import password_icon from "../assets/pass";
+import password_icon from "../assets/password.png";
 
 const LoginSignup = () => {
   return (
@@ -14,17 +14,17 @@ const LoginSignup = () => {
       </div>
       <div className="inputs">
         <div className="input">
-          <img src="" alt="" />
+          <img src={user_icon} alt="" />
           <input type="text" />
         </div>
 
         <div className="input">
-          <img src="" alt="" />
+          <img src={email_icon} alt="" />
           <input type="email" />
         </div>
 
         <div className="input">
-          <img src="" alt="" />
+          <img src={password_icon} alt="" />
           <input type="password" />
         </div>
       </div>
