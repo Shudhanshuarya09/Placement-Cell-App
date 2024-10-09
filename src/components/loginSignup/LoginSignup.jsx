@@ -28,6 +28,11 @@ const LoginSignup = () => {
           <input type="password" />
         </div>
       </div>
+<div className="forgot-password">Lost Password ? <span>Click here!</span></div>
+      <div className="submit-container">
+        <div className="submit">Sign Up</div>
+        <div className="submit">Login </div>
+      </div>
     </div>
   );
 };
