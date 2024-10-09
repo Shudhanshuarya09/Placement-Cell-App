@@ -1,8 +1,11 @@
 import { useState } from "react";
+
 import "./App.css";
+import LoginSignup from "./components/loginSignup/LoginSignup";
 import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./components/home/Home";
+
 
 function App() {
   const [openSidebarToggle, setOpenSidebarToggle] = useState(false);
@@ -11,8 +14,9 @@ function App() {
     setOpenSidebarToggle(!openSidebarToggle);
   };
 
-  return (
+  return ( 
     <div className="grid-container">
+      <LoginSignup/>
       <Header OpenSidebar={OpenSidebar} />
       <Sidebar
         openSidebarToggle={openSidebarToggle}
