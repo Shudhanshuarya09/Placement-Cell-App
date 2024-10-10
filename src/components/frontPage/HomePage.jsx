@@ -3,6 +3,11 @@ import './HomePage.css'; // External CSS file for styling
 import { Carousel } from 'react-bootstrap'; // For image carousel
 
 import user_icon from "../assets/sliet logo.jpeg";
+import one from "../assets/one.jpg";
+import two from "../assets/two.jpg";
+import three from "../assets/three.jpg";
+import four  from "../assets/four.jpg";
+
 
 const HomePage = () => {
   return (
@@ -28,16 +33,16 @@ const HomePage = () => {
       <div className="carousel-container">
         <Carousel>
           <Carousel.Item>
-            <img src="https://via.placeholder.com/1920x500" alt="Slide 1" />
+            <img src={one} alt="Slide 1" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="https://via.placeholder.com/1920x500" alt="Slide 2" />
+            <img src={two} alt="Slide 2" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="https://via.placeholder.com/1920x500" alt="Slide 3" />
+            <img src={three} alt="Slide 3" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="https://via.placeholder.com/1920x500" alt="Slide 4" />
+            <img src={four} alt="Slide 4" />
           </Carousel.Item>
         </Carousel>
       </div>
@@ -46,7 +51,7 @@ const HomePage = () => {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-section">
-            <img src="/logo.png" alt="SLIET" className="footer-logo" />
+            <img src={user_icon} alt="SLIET" className="footer-logo" />
             <p>Sant Longowal Institute of Engineering and Technology</p>
             <p>Longowal - 148106, Distt. Sangrur (Pb.), India</p>
             <p>Phone: +91-1672-280057</p>
