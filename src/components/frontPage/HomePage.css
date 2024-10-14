@@ -30,6 +30,7 @@ body {
   display: flex;
   gap: 30px;
   cursor: pointer;
+  background-color: aqua;
 }
 .navbar-center :hover {
   color: gray;
