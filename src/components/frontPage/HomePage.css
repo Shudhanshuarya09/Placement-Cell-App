@@ -28,7 +28,7 @@ body {
 .navbar-center {
   list-style: none;
   display: flex;
-  gap: 39px;
+  gap: 32px;
   cursor: pointer;
 
 }
